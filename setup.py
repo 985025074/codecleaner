@@ -8,4 +8,8 @@ setuptools.setup(
             "codecleaner=codecleaner.main:main",
         ]
     },
+    package_data={
+        "codecleaner":["config.json"]
+    },
+    include_package_data=True
 )
