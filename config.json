@@ -1,0 +1,11 @@
+{
+    "description":"This is just a test",
+    "tactics":{
+
+        "js":{
+            "pattern":"console\\.log\\(\\s*\"DEBUG:.*\"\\s*\\);?",
+            "target":"",
+            "description":"remove all console.log() whose content starts with 'DEBUG:'"
+        }
+    }
+}
