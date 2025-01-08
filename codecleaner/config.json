@@ -1,5 +1,7 @@
 {
-    "description":"This is just a test",
+    "description":"codecleaner intro TODO",
+    "newfile_help":"create a new file instead overide",
+    "line_help":"line by line cleaning",
     "tactics":{
 
         "js":{
