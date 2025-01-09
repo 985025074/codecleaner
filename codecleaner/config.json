@@ -1,13 +1,19 @@
 {
     "description":"codecleaner intro TODO",
-    "newfile_help":"create a new file instead overide",
+    "newfile_help":"create a new file instead of ovewriting",
     "line_help":"line by line cleaning",
+
     "tactics":{
 
         "js":{
-            "pattern":"console\\.log\\(\\s*\"DEBUG:.*\"\\s*\\);?",
+            "pattern":"console\\.log\\(\\s*\"DEBUG:.*\"\\s*\\);?\n?",
             "target":"",
             "description":"remove all console.log() whose content starts with 'DEBUG:'"
+        },
+        "py": {
+            "pattern": "^\\s*#.*", 
+            "target": "", 
+            "description": "remove all lines starting with '#' in Python code"
         }
     }
 }

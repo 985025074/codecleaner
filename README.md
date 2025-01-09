@@ -50,11 +50,14 @@ This project is still under development and in its early stages. If you have any
 
 ## TODO
 
-- Add line-by-line replacement functionality via the CLI.
+- ~~Add line-by-line replacement functionality via the CLI~~.
 - Implement additional tactics for other languages (C++, Python, etc.).
 - Enhance the overall speed of replacements.
 - Provide more documentation and examples.
 ## update record:
-2025.1.7  
+**2025.1.7**  
 fix bugs : config.json cant be read when the package is installed. use package_data function instaed. I tried manifest but didn't work.I don't know why. And I changed reading config's code. for the relative path is decided by the running path,which causing bugs that config can't be found in the directory where we run the command.
-the setuptools is hard to use!
+the setuptools is hard to use!  
+**2025.1.8**   
+add functions:line by line repalce + colorful display.(I use gpt help me:) it celerates a lot  )
+next to do 
